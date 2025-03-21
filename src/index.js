@@ -33,6 +33,9 @@ async function main() {
         }
     };
 
+    console.log('🏁 Game has started 🏁')
+    console.log(`🥊 ${players.playerOne.character.name} VS ${players.playerTwo.character.name} 🥊\n`)
+
     for (let i = 0; i < 5; i++) {
         let challengeNumber = await getRandomInt(3);
         console.log('Challenge number: ' + challengeNumber, '\n');
@@ -52,17 +55,19 @@ async function main() {
         }
     }
 
+    console.log(`\n${players.playerOne.character.name} has ${players.playerOne.points} and ${players.playerTwo.character.name} has ${players.playerTwo.points}`)
+
     if (players.playerOne.points > players.playerTwo.points) {
-        console.log('\n' + players.playerOne.character.name + ' won the race!');
+        console.log(players.playerOne.character.name + ' won the race!\n');
         return;
     }
 
     if (players.playerOne.points < players.playerTwo.points) {
-        console.log('\n' + players.playerTwo.character.name + ' won the race!');
+        console.log(players.playerTwo.character.name + ' won the race!\n');
         return;
     }
 
-    console.log('\nIts a tie!', '\n');
+    console.log('Its a tie!', '\n');
 }
 
 main();
