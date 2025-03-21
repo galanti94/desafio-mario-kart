@@ -118,7 +118,7 @@ Neste projeto, foi desenvolvida uma corrida que considera as habilidades dos per
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd nome-do-repositorio
+   cd desafio-mario-kart
    ```
 
 3. Em seu terminal e na pasta do projeto
