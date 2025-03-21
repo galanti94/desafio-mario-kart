@@ -112,7 +112,7 @@ Neste projeto, foi desenvolvida uma corrida que considera as habilidades dos per
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/fabiocasadossites/desafio-nodejs-mariokart-dio.git
+   git clone https://github.com/galanti94/desafio-mario-kart
    ```
 
 2. Navegue até o diretório do projeto:
